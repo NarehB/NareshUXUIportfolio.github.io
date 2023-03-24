@@ -164,7 +164,7 @@ section .title::after{
     display: flex;
     background: url("../The\ sky\ above\ us\ edit.jpg") no-repeat center;
     height: 100vh;
-    color: rgb(138, 62, 62);
+    color: rgb(39, 38, 38);
     min-height: 150px;
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
@@ -177,7 +177,7 @@ section .title::after{
     margin-right: 0;
   }
   .home .home-content .text-1{
-      font-size: 27px;
+      font-size: 33px;
   }
   .home .home-content .text-2{
       font-size: 75px;
@@ -189,7 +189,7 @@ section .title::after{
       margin: 5px 0;
   }
   .home .home-content .text-3 span{
-    color: crimson;
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 .home .home-content a{
