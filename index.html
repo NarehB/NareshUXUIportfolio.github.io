@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>Personal UX/UI Portfolio Website</title>
     <link rel="stylesheet" href="./CSS/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -27,18 +27,20 @@
 
 
         }
-
+        .links{
+            color:#fff;
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Design<span>Portfolio</span></a></div>
+            <div class="logo"><a href="#">UX/UI <span>Portfolio</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -66,8 +68,8 @@
                 </div>
                 <div class="column right">
                     <div class="text">I'm Naresh and I am a <span class="typing-2"></span></div>
-                    <p>Creative and collaborative UX/UI designer with a passion for harmony in structural design and connecting audiences with the esthetics of easy navigation.  For example, working with a team to redesign the registration page for The Kindness Project, an organization that supports foster families, allowed me to express my vision of a fluid design. Proficient in Visual Design, Visual Prototyping, Wireframing, Adobe XD, HTML/CSS, JavaScript, UI Grids, Composition, and User Interface Development allowing users to smoothly navigate the website via mobile phone. Working and collaborating with remote team members strengthened my organization skills, listening and discipline, to meet deadlines and deliver high quality work efficiently. With a bachelor’s degree in the Fine arts coupled with a UX/UI certification from George Washington University and combined with strong presentation skills helped produce an intuitive and effective experiences for website development.</p>
-                    <a href="#">Download Resume</a>
+                    <p>Creative and collaborative UX/UI designer with a passion for harmony in structural design and connecting audiences with the esthetics of easy navigation.  For example, working with a team to redesign the registration page for The Kindness Project, an organization that supports foster families, allowed me to express my vision of a fluid design. Proficient in Visual Design, Typography, Visual Prototyping, Wireframing, Adobe XD, Figma, HTML/CSS, JavaScript, UI Grids, Composition, and User Interface Development allowing users to smoothly navigate the website via mobile phone. Working and collaborating with remote team members strengthened my organization skills, listening and discipline, to meet deadlines and deliver high quality work efficiently. With a bachelor’s degree in the Fine arts coupled with a UX/UI certification from George Washington University and combined with strong presentation skills helped produce an intuitive and effective experiences for website development.</p>
+                    <a href="./Naresh color Resume.pdf" download class="download-btn">Download Resume</a>
                 </div>
             </div>
         </div>
@@ -75,29 +77,21 @@
 
 
         <!-- services section start -->
-    <section class="services" id="services">
+    <section class="projects" id="projects">
         <div class="max-width">
-            <h2 class="title">My services</h2>
-            <div class="serv-content">
+            <h2 class="title">My Projects</h2>
+            <div class="proj-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">UX/UI Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
+                        <img class="project-image" src="images/facebookprofile.png" alt="Project One Image"/>
+                        <div class="text">The Kindness Project</div>
+                        <div class="subtext"><a href="https://nareshbello.wixsite.com/redesign-k" class= "links" target="_blank">View Case Study</a></div>                    </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Visual Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Front End Development</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <img class="project-image" src="images/DSC_1178.png" alt="Project One Image"/>
+                        <div class="text">Instagram redesign</div>
+                        <div class="subtext"><a href="https://nareshbello.wixsite.com/redesign-guide" class= "links" target="_blank">View Case Study</a></div>                    </div>
                     </div>
                 </div>
                </div>
@@ -139,6 +133,13 @@
                             <div class="info">
                                 <div class="head">LinkedIn</div>
                                 <div class="sub-title"><a href="https://www.linkedin.com/in/naresh-bello954/" target="_blank">naresh-bello954</a></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa-solid fa-paintbrush"></i>
+                            <div class="info">
+                                <div class="head">Art Portfolio</div>
+                                <div class="sub-title"><a href="https://nareshbello.wixsite.com/art-portflio" target="_blank">Click Here</a></div>
                             </div>
                         </div>
                     </div>
