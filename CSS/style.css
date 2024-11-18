@@ -33,7 +33,7 @@ section{
     margin: auto;
 }
 .about, .projices, .skills, .contact, footer{
-    font-family: 'forum';
+    font-family: 'Arsenal';
 }
 .about .about-content,
 .skills .skills-content,
@@ -58,7 +58,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'forum';
+    font-family: 'Arsenal';
 }
 section .title::before{
     content: "";
@@ -88,7 +88,7 @@ section .title::after{
     background: #fff;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'forum';
+    font-family: 'Arsenal';
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -174,7 +174,7 @@ section .title::after{
     color: #D90D1E;
     min-height: 150px;
     background-size: cover;
-    font-family: 'forum';
+    font-family: 'Arsenal';
 }
 .home .max-width{
     width: 100%;
@@ -280,7 +280,6 @@ section .title::after{
     content: "My show case";
 }
 .projects .proj-content .card{
-    width: calc(33% - 20px);
     background: #beaeae;
     text-align: center;
     border-radius: 6px;
@@ -313,6 +312,7 @@ section .title::after{
 .projects .proj-content .card .text{
     font-size: 25px;
     font-weight: 500;
+    font-family: 'Arsenal';
     margin: 10px 0 7px 0;
 }
 
@@ -377,7 +377,7 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'forum';
+    font-family: 'Arsenal';
     transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
